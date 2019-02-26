@@ -2,6 +2,7 @@
  * Created by Администратор on 02.09.2017.
  */
 
+
 // возвращает cookie с именем name, если есть, если нет, то undefined
 function getCookie(name) {
     var matches = document.cookie.match(new RegExp(
