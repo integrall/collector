@@ -96,6 +96,12 @@ for (var i = 0; i < arrayVar.length; i++) {
                 setCookie('referer', referrer);
             break;
             };*/
+        case 'utm_term': 
+            var utm_term = tmpArr[1]; 
+            if (utm_term && utm_term != '') {
+                setCookie('utm_term', utm_term);
+            break;
+            };
         case 'utm_source': 
             var utm_source = tmpArr[1]; 
             if (utm_source && utm_source != '') {
